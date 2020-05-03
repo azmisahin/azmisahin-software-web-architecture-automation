@@ -1,0 +1,42 @@
+{
+  "name": "architecture",
+  "version": "1.0.0",
+  "description": "Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerini kullanma ve geliştirme prensiplerin, mimari örneğini örneklemektedir.",
+  "author": "azmisahin@outlook.com",
+  "license": "CC0-1.0",
+  "keywords": [
+    "proje",
+    "takım",
+    "geliştirme",
+    "kod",
+    "stiller",
+    "prensip",
+    "mimari"
+  ],
+  "app": {
+    "title": "Mimari Proje"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmisahin/azmisahin-software-web-architecture-automation.git"
+  },
+  "homepage": "https://github.com/azmisahin/azmisahin-software-web-architecture-automatio",
+  "bugs": {
+    "url": "https://github.com/azmisahin/azmisahin-software-web-architecture-automation/issues"
+  },
+  "main": "src",
+  "scripts": {
+    "lint": "eslint src --fix && eslint tests --fix",
+    "install": "",
+    "test": "node tests",
+    "coverage": "",
+    "watch": "",
+    "start": "node src",
+    "serve": "npm run build && npm run start",
+    "build": "npm run lint && npm run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
