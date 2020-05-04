@@ -13,7 +13,9 @@ module.exports = {
     /// Modüller hariç tüm ECMAScript 6 özelliklerini etkinleştirir.
     "es6": true,
     /// Node.js genel değişkenleri ve Node.js kapsamı.
-    "node": true
+    "node": true,
+    /// Test ve cover
+    "jest": true
   },
   /**
    * Her kuralı kapatabilir ve yalnızca temel sözdizimi doğrulamasıyla çalışabilir.

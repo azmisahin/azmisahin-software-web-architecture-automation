@@ -28,15 +28,16 @@
   "scripts": {
     "lint": "eslint src --fix && eslint tests --fix",
     "install": "",
-    "test": "node tests",
-    "coverage": "",
+    "test": "jest",
+    "coverage": "jest --coverage",
     "watch": "",
     "start": "node src",
     "serve": "npm run build && npm run start",
-    "build": "npm run lint && npm run test"
+    "build": "npm run lint && npm run test && npm run coverage"
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "jest": "^25.5.4"
   }
 }
