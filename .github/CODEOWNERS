@@ -1,0 +1,11 @@
+# Kod Sahipleri
+# Her satır, bir dosya deseni ve ardından bir veya daha fazla sahiptir.
+
+# Birisi bir çekme isteği açtığında gözden geçirin.
+*	azmisahin@outlook.com
+
+# Birisi yalnızca JS dosyalarını değiştiren bir çekme isteği açtığında.
+*.js	azmisahin@outlook.com
+
+# Birisi yalnızca / docs klasörünü değiştiren bir çekme isteği açtığında.
+/docs	azmisahin@outlook.com
