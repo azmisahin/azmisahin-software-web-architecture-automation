@@ -10,3 +10,16 @@ Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerin
 - Aramıza hoşgeldin, Katkı sağlamak için [Nasıl Katlı Sağlarım](CONTRIBUTING.md)a bakın.
 - Katılımcı Sözleşmesi  [Davranış Kuralları](CODE_OF_CONDUCT.md)nı gözden geçirin.
 - Proje [döküman](https://azmisahin.github.io/azmisahin-software-web-architecture-automation/) sayfasına erişmek için
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <img alt="Creative Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" />
+</a>
+
+<span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/InteractiveResource" property="dct:title"
+    rel="dct:type">Proje Automation</span> by <a xmlns:cc="https://creativecommons.org/ns#"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/" property="cc:attributionName" rel="cc:attributionURL">Azmi SAHIN</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://cybotranik-site-template.gitlab.io" rel="dct:source">https://github.com/azmisahin/azmisahin-software-web-architecture-automation</a>
