@@ -2,6 +2,7 @@
   <a title="CircleCI Status" href="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation"><img src="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation.svg" alt="CircleCI Status"></a>
   <a title="Travis CI  Status" href="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation"><img src="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation.svg" alt="Travis CI Status"></a>
   <a title="Azure Pipeline" href="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_build"><img src="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_apis/build/status/azmisahin.azmisahin-software-web-architecture-automation" alt="Azure Pipeline"></a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield"/></a>
 </p>
 
 # Mimari Otomasyon
