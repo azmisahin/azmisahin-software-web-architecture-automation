@@ -1,12 +1,15 @@
+// Gerekli kütüphaneler.
 var Application = require('../../src/app')
 
-// eslint-disable-next-line no-undef
-it('Application constractor teset', () => {
+/**
+   * Uygulama örneği başarılı bir şekilde yüklenmesi.
+   */
+it('Uygulama oluşturulabiliyor mu?', () => {
 
-  // Application instance create
+  // Uygulama örneği oluşturuldu.
   var app = new Application()
 
-  // Instance defined?
+  // Örnek tanımlandı mı?
   expect(app).toBeDefined()
 
 })

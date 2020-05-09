@@ -3,40 +3,55 @@
  * tanımlamak için statik kod analiz tanımları.
  */
 module.exports = {
+
   /**
    * Önceden tanımlanmış global değişkenleri tanımlar
    * @see https://eslint.org/docs/user-guide/configuring#specifying-environments
    */
   "env": {
+
     /// Tarayıcı genel değişkenleri.
     "browser": true,
+
     /// Modüller hariç tüm ECMAScript 6 özelliklerini etkinleştirir.
     "es6": true,
+
     /// Node.js genel değişkenleri ve Node.js kapsamı.
     "node": true,
+
     /// Test ve cover
-    "jest": true
+    "jest": true,
+
+    // Mocha test framework tüm değişkenlerini yükler.
+    "mocha": true
   },
+
   /**
    * Her kuralı kapatabilir ve yalnızca temel sözdizimi doğrulamasıyla çalışabilir.
    *
    * @see https://eslint.org/docs/user-guide/configuring#using-eslintrecommended
    */
   "extends": "eslint:recommended",
+
   /**
    * Ayrıştırıcı Seçeneklerini Belirleme.
    *
    * @see https://eslint.org/docs/user-guide/configuring#specifying-parser-options
    */
   "parserOptions": {
+    /**
+     * Ecma Script versiyon
+     */
     "ecmaVersion": 6
   },
+
   /**
    * Amaçlarını anlamanıza yardımcı olmak için kategoriye göre gruplandırılmıştır.
    *
    * @see https://eslint.org/docs/rules
    */
   "rules": {
+
     /**
      * Tutarlı girinti uygula (girinti).
      *
@@ -46,6 +61,7 @@ module.exports = {
       "error",
       2
     ],
+
     /**
      * Tutarlı linebreak stilini uygula (linebreak stili).
      *
@@ -53,6 +69,7 @@ module.exports = {
      * @see https://eslint.org/docs/rules/linebreak-style
      */
     "linebreak-style": ["error", (process.platform === "win32" ? "windows" : "unix")],
+
     /**
      * Ters tırnak, çift veya tek tırnak (tırnak) tutarlı kullanımını zorunlu kılmak.
      *
@@ -62,6 +79,7 @@ module.exports = {
       "error",
       "single"
     ],
+
     /**
      * Noktalı virgül gerektirir veya izin vermez.
      *
@@ -71,11 +89,26 @@ module.exports = {
       "error",
       "never"
     ],
+
     /**
      * Kullanımına izin verme console(konsol yok).
      *
      * @see https://eslint.org/docs/rules/no-console
      */
-    "no-console": "error"
+    "no-console": "error",
+
+    /**
+     * Değişken bildirimlerden sonra boş bir satır gerektirme veya buna izin verme
+     * @see https://eslint.org/docs/rules/newline-after-var
+     */
+    "newline-after-var": ["error", "always"],
+
+    /**
+     * Tutarlı linebreak stilini uygula.
+     * @see https://eslint.org/docs/rules/linebreak-style
+     */
+    'linebreak-style': ["error", "unix"]
+
   }
+
 }

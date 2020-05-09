@@ -1,9 +1,9 @@
 /**
- * Architecture Project
+ * Mimari proje
  *
- * Startup Project
+ * Başlangıç projesi
  *
- * https://bitbucket.org/kiwi-scooter
+ * https://github.com/azmisahin/azmisahin-software-web-architecture-automation
  *
  * @author Azmi SAHIN
  * @since 2020
@@ -11,29 +11,29 @@
 class Application {
 
   /**
-	 * Architecture Application
+	 * Mimari Uygualama
 	 *
 	 * @example
 	 *
-	 * /// Referance Load
+	 * /// Referanslar yüklendi.
 	 * const Application = require('./app')
 	 *
-	 * ///  Instance create
+	 * ///  Örnek oluşturuldu.
 	 * var app = new Application()
 	 *
 	 * @returns <Application>
 	 */
   constructor() {
 
-    // Application Name
+    // Uygulama adı.
     this.name = require('../package.json').name
 
-    /// Application Version
+    /// Uygulama version numarası.
     this.version = require('../package.json').version
   }
 }
 
 /**
- * Application module export
+ * Uygulama modülü.
  */
 module.exports = Application

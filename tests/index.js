@@ -4,7 +4,7 @@ var expected = ''
 /// Gerçek
 var actual = ''
 
-/// Öne sürülen savunma
+/// Öne sürülen iddia
 var assert = expected == actual ? 'Success' : 'Error'
 
 // eslint-disable-next-line no-console

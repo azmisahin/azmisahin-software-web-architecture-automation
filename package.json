@@ -26,14 +26,18 @@
   },
   "main": "src",
   "scripts": {
-    "lint": "eslint src --fix && eslint tests --fix",
-    "install": "",
-    "test": "jest",
+    "lint:config": "eslint jest.config.js --fix && eslint nightwatch.conf.js --fix",
+    "lint:src": "eslint src --fix",
+    "lint:test-unit": "eslint tests/unit --fix",
+    "lint:test-e2e": "eslint tests/e2e --fix",
+    "lint": "npm run lint:config && npm run lint:src && npm run lint:test-unit && npm run lint:test-e2e",
+    "test:unit": "jest tests/unit",
+    "test:e2e": "nightwatch",
+    "test": "npm run test:unit && npm run test:e2e",
     "coverage": "jest --coverage",
-    "watch": "",
-    "start": "node src",
-    "serve": "npm run build && npm run start",
-    "build": "npm run lint && npm run test && npm run coverage"
+    "build": "npm run lint && npm run test && npm run coverage",
+    "serve": "node src",
+    "start": "npm run build && npm run serve"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -41,6 +45,10 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jest": "^25.5.4"
+    "jest": "^25.5.4",
+    "mocha": "^7.1.2",
+    "chromedriver": "^81.0.0",
+    "geckodriver": "^1.19.1",
+    "nightwatch": "^1.3.5"
   }
 }

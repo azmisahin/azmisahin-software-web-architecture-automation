@@ -1,11 +1,14 @@
+// Gerekli kütüphaneler.
 var Server = require('../../../src/web/server')
 
-// eslint-disable-next-line no-undef
+/**
+ * Web sunucu örneği çalışıyor mu?
+ */
 it('Web server teset', () => {
 
-  // Application instance create
+  // Uygulama örneği oluşturuldu.
   var app = new Server()
 
-  // Instance defined?
+  // Örnek tanımlı mı?
   expect(app).toBeDefined()
 })

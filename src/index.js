@@ -1,32 +1,37 @@
-/// Referance Load
+/// Gerekli kütüphaneler..
 const Application = require('./app')
 const Server = require('./web/server')
 
-/// Application Instance Create
+/// Uygualama örneği oluşturuldu.
 var app = new Application
 
-// Start Application
+// Uygulamayı başlat.
 var start = function (app) {
 
-  // Web Server initalize
+  //web suncusu örneği yapılandırılıyor.
   var server = new Server()
 
-  // Define
+  // Ortam portu yada belirli bir port başlatılıyor.
   var port = process.env.PORT || 3000
 
-  // Server message
+  // Uygulama çalıştığında verilecek mesaj.
   var message = `
   Application : ${app.name}
   Version     : ${app.version}
   Port        : ${port}
+
+  Link        : http://localhost:${port}
   `
-  // Server Listener
+  // Sunucu port üzerinden dinlemeye başladı.
+
   server.listen(port, () => {
     // eslint-disable-next-line no-console
     console.log(message)
   })
 
+  // Sunucu mesajı iletiliyor.
   return message
 }
 
+// Uygulamayı başlat.
 start(app)

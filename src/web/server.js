@@ -1,29 +1,30 @@
-// Required
+// Gerekli kütüphaneler.
 var express = require('express')
 var http = require('http')
 var cors = require('cors')
 
 /**
- * Web server
+ * Web sunucu
  */
 class Server {
 
   /**
-   * Web Server
+   * Web Sunucu yapıcısı
    */
   constructor() {
 
-    // Server
+    // web uygulama sunucu çatısı
     var exp = express()
+
     this.server = http.createServer(exp)
 
-    // Static File
-    exp.use(express.static('./'))
+    // Static Dosyalar
+    exp.use(express.static('./public'))
 
-    // Cros Origin Enable
+    // Cros Origin Aktif
     exp.use(cors())
 
-    // Server
+    // Sunucu
     return this.server
 
   }
@@ -31,6 +32,6 @@ class Server {
 }
 
 /**
- * Application module export
+ * Uygualma modülü.
  */
 module.exports = Server
