@@ -42,8 +42,8 @@
     "build:prod": "npm run lint:prod && npm run test:prod && npm run coverage",
     "serve": "node src",
     "dev": "npm run build && npm run serve",
-    "prod": "npm run build:prod && npm run serve",
-    "start": "npm run prod"
+    "prod": "npm run build:prod",
+    "start": "npm run serve"
   },
   "dependencies": {
     "cors": "^2.8.5",
