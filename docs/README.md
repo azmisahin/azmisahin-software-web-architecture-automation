@@ -1,20 +1,25 @@
 # ![Logo](media/favicon.png)
 # Proje dökümanları
 
-## Nodejs kurulum
+## Nodejs kurulum - Üretim
 ```shell
-$ npm i
+$ npm install
 ▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ npm run build
-
+$ npm run prod
 ```
 
 ## Nodejs üzerinde çalıştırma
 ```shell
-$ npm i
+$ npm install
 ▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
-$ npm run build
+$ npm run start
+```
 
+## Nodejs kurulum - Geliştme
+```shell
+$ npm install
+▀ ╢█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+$ npm run dev
 ```
 
 ## Docker üzerinde kurulum
