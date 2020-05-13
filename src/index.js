@@ -12,7 +12,7 @@ var start = function (app) {
   var server = new Server()
 
   // Ortam portu yada belirli bir port başlatılıyor.
-  var port = process.env.PORT || 3000
+  var port = process.env.PORT || app.configuration.web.port
 
   // Uygulama çalıştığında verilecek mesaj.
   var message = `

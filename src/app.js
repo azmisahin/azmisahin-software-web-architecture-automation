@@ -30,6 +30,9 @@ class Application {
 
     /// Uygulama version numarası.
     this.version = require('../package.json').version
+
+    /// Uygulama konfigurasyon bilgisi
+    this.configuration = require('../config/development.json').configuration
   }
 }
 

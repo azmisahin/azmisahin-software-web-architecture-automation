@@ -1,0 +1,8 @@
+{
+  "configuration": {
+    "web": {
+      "port": 5000
+    },
+    "database": {}
+  }
+}
