@@ -37,12 +37,13 @@
     "test": "npm run test:unit",
     "test:dev": "cross-env NODE_ENV=development && npm run test:unit && npm run test:e2e",
     "test:prod": "cross-env NODE_ENV=production && npm run test:unit",
-    "coverage": "jest --coverage",
     "build": "npm run lint && npm run test && npm run coverage",
+    "build:dev": "npm run lint && npm run test:dev && npm run coverage",
     "build:prod": "npm run lint:prod && npm run test:prod && npm run coverage",
     "serve": "cross-env NODE_ENV=development && node src",
-    "dev": "npm run build && npm run serve",
+    "dev": "npm run build:dev && npm run serve",
     "prod": "npm run build:prod",
+    "coverage": "jest --coverage",
     "start": "npm run serve"
   },
   "dependencies": {
@@ -56,6 +57,7 @@
     "eslint": "^6.8.0",
     "geckodriver": "^1.19.1",
     "jest": "^25.5.4",
-    "nightwatch": "^1.3.5"
+    "nightwatch": "^1.3.5",
+    "selenium-server": "^3.141.59"
   }
 }
