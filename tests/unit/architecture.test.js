@@ -1,5 +1,5 @@
 // Gerekli kütüphaneler.
-var Application = require('../../src/app')
+var Architecture = require('../../src/architecture')
 
 /**
    * Uygulama örneği başarılı bir şekilde yüklenmesi.
@@ -7,9 +7,9 @@ var Application = require('../../src/app')
 it('Uygulama oluşturulabiliyor mu?', () => {
 
   // Uygulama örneği oluşturuldu.
-  var app = new Application()
+  var arc = new Architecture()
 
   // Örnek tanımlandı mı?
-  expect(app).toBeDefined()
+  expect(arc).toBeDefined()
 
 })

@@ -29,5 +29,5 @@ docker build -t architecture .
 
 ## Docker üzerinde çalıştırma
 ```
-docker run -d -p 80:3000 architecture
+docker run -d -p 80:5000 architecture
 ```

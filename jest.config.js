@@ -26,6 +26,12 @@ module.exports = {
   /**
    * Jest'in test dosyalarını tespit etmek için kullandığı global kalıpları.
    */
-  'testMatch': ['<rootDir>/**/tests/unit/**/*.test.js']
+  'testMatch': ['<rootDir>/**/tests/unit/**/*.test.js'],
 
+  /**
+   * Bir dosya belirtilen glob paterniyle eşleşirse,
+   * bu dosya için test mevcut olmasa
+   * ve test paketinde asla gerekli olmamasına rağmen kapsama bilgileri toplanır.
+   */
+  'collectCoverageFrom': ['src/**/*.{ts,js}']
 }

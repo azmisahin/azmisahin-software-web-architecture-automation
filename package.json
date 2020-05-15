@@ -43,7 +43,7 @@
     "serve": "node src",
     "dev": "cross-env NODE_ENV=development npm run build:dev && npm run serve",
     "prod": "npm run build:prod",
-    "coverage": "jest --coverage",
+    "coverage": "jest --collectCoverage",
     "start": "cross-env NODE_ENV=production npm run serve"
   },
   "dependencies": {

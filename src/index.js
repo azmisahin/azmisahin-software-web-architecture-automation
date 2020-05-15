@@ -1,37 +1,19 @@
-/// Gerekli kütüphaneler..
-const Application = require('./app')
-const Server = require('./web/server')
+/// Gerekli kütüphaneler
+var express = require('express')
+var Architecture = require('./architecture')
 
-/// Uygualama örneği oluşturuldu.
-var app = new Application
+/// Uygulama örneği oluşturuldu.
+var arc = new Architecture
 
-// Uygulamayı başlat.
-var start = function (app) {
+/// Express
+var app = module.exports = express()
 
-  //web suncusu örneği yapılandırılıyor.
-  var server = new Server()
+// Sunucu başlangıç yapılandırmaları
+app.use(require('./web'))
+app.use(require('./controllers'))
 
-  // Ortam portu yada belirli bir port başlatılıyor.
-  var port = process.env.PORT || app.configuration.web.port
-
-  // Uygulama çalıştığında verilecek mesaj.
-  var message = `
-  Application : ${app.name}
-  Version     : ${app.version}
-  Port        : ${port}
-
-  Link        : http://localhost:${port}
-  `
-  // Sunucu port üzerinden dinlemeye başladı.
-
-  server.listen(port, () => {
-    // eslint-disable-next-line no-console
-    console.log(message)
-  })
-
-  // Sunucu mesajı iletiliyor.
-  return message
-}
-
-// Uygulamayı başlat.
-start(app)
+// Sunucu port üzerinden dinlemeye başladı.
+app.listen(arc.configuration.web.port, () => {
+  // eslint-disable-next-line no-console
+  console.log(arc.message)
+})

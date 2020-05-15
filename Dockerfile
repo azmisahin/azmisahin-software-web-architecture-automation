@@ -16,7 +16,7 @@ COPY . .
 RUN npm run prod
 
 # Specify port app runs on
-EXPOSE 3000
+EXPOSE 5000
 
 # Run the app
 CMD [ "npm", "start" ]
