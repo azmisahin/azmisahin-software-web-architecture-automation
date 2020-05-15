@@ -32,7 +32,7 @@ class Application {
     this.version = require('../package.json').version
 
     /// Uygulama konfigurasyon bilgisi
-    this.configuration = require('../config/development.json').configuration
+    this.configuration = require('config').get('configuration')
   }
 }
 

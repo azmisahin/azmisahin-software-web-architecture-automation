@@ -1,5 +1,6 @@
 {
   "configuration": {
+    "name":"development",
     "web": {
       "port":3001
     },

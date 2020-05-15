@@ -34,17 +34,17 @@
     "lint:prod": "npm run lint:config && npm run lint:src && npm run lint:test-unit",
     "test:unit": "jest tests/unit",
     "test:e2e": "nightwatch",
-    "test": "npm run test:unit",
-    "test:dev": "cross-env NODE_ENV=development && npm run test:unit && npm run test:e2e",
-    "test:prod": "cross-env NODE_ENV=production && npm run test:unit",
+    "test": "cross-env NODE_ENV=test npm run test:unit",
+    "test:dev": "cross-env NODE_ENV=development npm run test:unit && npm run test:e2e",
+    "test:prod": "cross-env NODE_ENV=production npm run test:unit",
     "build": "npm run lint && npm run test && npm run coverage",
     "build:dev": "npm run lint && npm run test:dev && npm run coverage",
     "build:prod": "npm run lint:prod && npm run test:prod && npm run coverage",
-    "serve": "cross-env NODE_ENV=development && node src",
-    "dev": "npm run build:dev && npm run serve",
+    "serve": "node src",
+    "dev": "cross-env NODE_ENV=development npm run build:dev && npm run serve",
     "prod": "npm run build:prod",
     "coverage": "jest --coverage",
-    "start": "npm run serve"
+    "start": "cross-env NODE_ENV=production npm run serve"
   },
   "dependencies": {
     "config": "^3.3.1",

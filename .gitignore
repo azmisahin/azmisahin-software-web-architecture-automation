@@ -108,3 +108,4 @@ temp/
 # Exclude private files in the project.
 package-lock.json
 reports
+screens
