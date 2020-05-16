@@ -12,8 +12,13 @@ var app = module.exports = express()
 app.use(require('./web'))
 app.use(require('./controllers'))
 
-// Sunucu port üzerinden dinlemeye başladı.
-app.listen(arc.configuration.web.port, () => {
-  // eslint-disable-next-line no-console
-  console.log(arc.message)
-})
+/// Testlerde başlatılmayacaktır.
+/// Üretim ortamı ve geliştirme ortamlarınde başlatılacaktır.
+if (!module.parent) {
+
+  // Sunucu port üzerinden dinlemeye başladı.
+  app.listen(arc.configuration.web.port, () => {
+    // eslint-disable-next-line no-console
+    console.log(arc.message)
+  })
+}
