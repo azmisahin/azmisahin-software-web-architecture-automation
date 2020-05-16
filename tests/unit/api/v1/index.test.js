@@ -13,22 +13,22 @@ app.use(api)
  */
 describe('v1 api tests', function () {
 
-    // Hedeflenen sürüm.
-    var url = '/api/v1'
+  // Hedeflenen sürüm.
+  var url = '/api/v1'
 
-    /**
+  /**
      * Hedeflenen sürüm için, global test.
      */
-    it(url, function (done) {
+  it(url, function (done) {
 
-        // SuperTest talep ediliyor.
-        request(app)
+    // SuperTest talep ediliyor.
+    request(app)
 
-            // Global sürüm testi.
-            .get('/')
+    // Global sürüm testi.
+      .get('/')
 
-            // Başarılı cevabı alınması gerekli.
-            .expect(200, 'v1')
-            .end(done)
-    })
+    // Başarılı cevabı alınması gerekli.
+      .expect(200, 'v1')
+      .end(done)
+  })
 })
