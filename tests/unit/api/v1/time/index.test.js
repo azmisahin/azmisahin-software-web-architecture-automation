@@ -1,6 +1,6 @@
 /// Gerekli kütüphaneler
 var request = require('supertest')
-var api = require('../../../../../src/controllers/api/v1/time')
+var api = require('@arc/controllers')
 
 /// Mock
 var express = require('express')
