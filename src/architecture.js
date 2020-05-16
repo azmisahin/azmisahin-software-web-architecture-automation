@@ -54,12 +54,10 @@ module.exports = class Architecture {
 		 * Karşılama mesajı.
 		 */
     this.message = `
-		Application : ${this.name}
-		Version     : ${this.version}
-		Port        : ${this.configuration.web.port}
-		==================================================
-
-		Link        : ${this.link}
-		`
+		Application	:	${this.name}
+		Version		:	${this.version}
+		Port		:	${this.configuration.web.port}
+		Mode		:	${this.configuration.name}
+		Link		:	${this.link}`
   }
 }
