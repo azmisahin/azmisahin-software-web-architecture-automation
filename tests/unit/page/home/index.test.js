@@ -1,24 +1,24 @@
 /// Gerekli kütüphaneler
 var request = require('supertest')
-var api = require('@arc/controllers/api')
+var page = require('@arc/controllers/page')
 
 /// Mock
 var express = require('express')
 var app = express()
 
-app.use(api)
+app.use(page)
 
 /**
- * Time api testleri
+ * Sayfa testleri
  */
-describe('v1 api tests', function () {
+describe('Sayfalar', function () {
 
   // Hedeflenen sürüm.
-  var url = '/api'
+  var url = '/'
 
   /**
-       * Hedeflenen sürüm için, global test.
-       */
+     * Hedeflenen sürüm için, global test.
+     */
   it(url, function (done) {
 
     // SuperTest talep ediliyor.
@@ -28,7 +28,7 @@ describe('v1 api tests', function () {
       .get(url)
 
     // Başarılı cevabı alınması gerekli.
-      .expect(200, 'api')
+      .expect(200, 'home')
       .end(done)
   })
 })

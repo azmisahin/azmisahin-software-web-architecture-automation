@@ -1,7 +1,10 @@
-/// Gerekli kütüphaneler
+/// Gerekli kütüphaneler.
 var express = require('express')
 
-/// Multi router
+/**
+ * Yönlendirici örneği ayarlanıyor.
+ * Ve export ediliyor
+ */
 var app = module.exports = express()
 
 // Yönlendiricileri kullanmaya başlıyor.

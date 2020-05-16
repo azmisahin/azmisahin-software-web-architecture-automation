@@ -1,15 +1,19 @@
-// Gerekli kütüphaneler.
+/// Gerekli kütüphaneler.
 var express = require('express')
 
-// Yönlendiric örneği ayarlanıyor.
-var page = express.Router()
+/**
+ * Yönlendirici örneği ayarlanıyor.
+ * Ve export ediliyor
+ */
+var page = module.exports = express.Router()
 
 // Giriş isteği ayarlanıyor.
 page.get('/', function (req, res) {
-  res.send('home')
-})
 
-/**
- * Uygualma modülü.
- */
-module.exports = page
+  // Geri dönüş değeri yapılandırılıyor. 
+  // 
+  var result = 'home'
+
+  // Başarılı cevabı iletiliyor ve veri gönderiliyor.
+  res.status(200).send(result)
+})

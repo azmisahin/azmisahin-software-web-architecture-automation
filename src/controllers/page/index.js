@@ -1,9 +1,11 @@
-// Gerekli kütüphaneler
+/// Gerekli kütüphaneler.
 var express = require('express')
 
-// Multi router
-var app = module.exports = express()
+/**
+ * Yönlendirici örneği ayarlanıyor.
+ * Ve export ediliyor
+ */
+var app = module.exports = express.Router()
 
 // Yönlendirici adresleri
 app.use('/', require('./home'))
-app.use('/home', require('./home'))
