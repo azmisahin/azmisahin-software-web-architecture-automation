@@ -1,8 +1,11 @@
-// Gerekli kütüphaneler.
+/// Gerekli kütüphaneler.
 var express = require('express')
 
-// Yönlendiric örneği ayarlanıyor.
-var api = express.Router()
+/**
+ * Yönlendirici örneği ayarlanıyor.
+ * Ve export ediliyor
+ */
+var api = module.exports = express.Router()
 
 // Giriş isteği ayarlanıyor.
 api.get('/', function (req, res) {
@@ -10,10 +13,6 @@ api.get('/', function (req, res) {
   // Tarih ve saat ISO formatı ile hazırlanıyor.
   var isoDate = new Date().toISOString()
 
-  res.send(isoDate)
+  // Başarılı cevabı iletiliyor ve veri gönderiliyor.
+  res.status(200).send(isoDate)
 })
-
-/**
- * Uygualma modülü.
- */
-module.exports = api

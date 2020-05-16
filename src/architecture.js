@@ -11,18 +11,18 @@
 module.exports = class Architecture {
 
   /**
-	   * Mimari Uygualama
-	   *
-	   * @example
-	   *
-	   * /// Referanslar yüklendi.
-	   * const Architecture = require('./architecture')
-	   *
-	   * ///  Örnek oluşturuldu.
-	   * var arc = new Architecture()
-	   *
-	   * @returns <Architecture>
-	   */
+	 * Mimari Uygualama
+	 *
+	 * @example
+	 *
+	 * /// Referanslar yüklendi.
+	 * const Architecture = require('./architecture')
+	 *
+	 * ///  Örnek oluşturuldu.
+	 * var arc = new Architecture()
+	 *
+	 * @returns <Architecture>
+	 */
   constructor() {
 
     /**
@@ -46,7 +46,12 @@ module.exports = class Architecture {
     this.host = require('os').hostname()
 
     /**
-		 * Karşıalama mesajı.
+		 * Uygulama adresi 
+		 */
+    this.link = `http://${this.host}:${this.configuration.web.port}`
+
+    /**
+		 * Karşılama mesajı.
 		 */
     this.message = `
 		Application : ${this.name}
@@ -54,7 +59,7 @@ module.exports = class Architecture {
 		Port        : ${this.configuration.web.port}
 		==================================================
 
-		Link        : http://${this.host}:${this.configuration.web.port}
+		Link        : ${this.link}
 		`
   }
 }
