@@ -2,7 +2,9 @@
 var express = require('express')
 var cors = require('cors')
 
-/// Express sunucu
+/**
+ * Express sunucu
+ */
 var app = module.exports = express()
 
 // Static Dosyalar

@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@arc/controllers": "file:src/controllers",
+    "@arc/web": "file:src/web",
     "config": "^3.3.1",
     "cors": "^2.8.5",
     "express": "^4.17.1"
