@@ -12,8 +12,8 @@ api.get('/', function (req, res) {
 
   // Geri dönüş değeri yapılandırılıyor. 
   // Tarih ve saat ISO formatı ile hazırlanıyor.
-  var result = new Date().toISOString()
+  var result = { dateTime: new Date().toISOString() }
 
   // Başarılı cevabı iletiliyor ve veri gönderiliyor.
-  res.status(200).send(result)
+  res.status(200).json(result)
 })

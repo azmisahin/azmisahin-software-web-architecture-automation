@@ -1,7 +1,7 @@
 /// Gerekli kütüphaneler
 var { arc } = require('@arc/core')
 
-var serviceUrl = '/api/v1/time'
+var serviceUrl = '/api/v2/time'
 
 /**
  * Time api uçtan uca test

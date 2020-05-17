@@ -8,19 +8,20 @@ var serviceUrl = '/api/v1'
  */
 describe(serviceUrl, function () {
 
-    // Test adresi tam yolu
-    var testUrl = `${arc.link}${serviceUrl}`
+  // Test adresi tam yolu
+  var testUrl = `${arc.link}${serviceUrl}`
 
-    // Önce api sayfasına bağlan
-    before(browser => browser.url(testUrl))
+  // Önce api sayfasına bağlan
+  before(browser => browser.url(testUrl))
 
-    // Hizmet adımları
-    test(`${testUrl} Tarayıcı üzerinde görüntüleniyor.`, function (browser) {
-        browser
-            // içerik uyuşuyor mu?
-            .assert.containsText('body', 'v1', `${serviceUrl} içeriğine erişildi.`)
-    })
+  // Hizmet adımları
+  // Bu alanda \ karakterini kullanmayınız.
+  test('Tarayıcı üzerinde görüntüleniyor.', function (browser) {
+    browser
+    // içerik uyuşuyor mu?
+      .assert.containsText('body', 'v1', `${serviceUrl} içeriğine erişildi.`)
+  })
 
-    //  Görev tamamlandı.
-    after(browser => browser.end())
+  //  Görev tamamlandı.
+  after(browser => browser.end())
 })

@@ -1,7 +1,7 @@
 /// Gerekli kütüphaneler
 var { arc } = require('@arc/core')
 
-var serviceUrl = '/api/v1/time'
+var serviceUrl = '/api/v2'
 
 /**
  * Time api uçtan uca test
@@ -18,8 +18,8 @@ describe(serviceUrl, function () {
   // Bu alanda \ karakterini kullanmayınız.
   test('Tarayıcı üzerinde görüntüleniyor.', function (browser) {
     browser
-      // içerik uyuşuyor mu?
-      .assert.containsText('body', 'dateTime', `${serviceUrl} içeriğine erişildi.`)
+    // içerik uyuşuyor mu?
+      .assert.containsText('body', 'v2', `${serviceUrl} içeriğine erişildi.`)
   })
 
   //  Görev tamamlandı.
