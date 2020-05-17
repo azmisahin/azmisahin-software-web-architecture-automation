@@ -8,11 +8,14 @@ var serviceUrl = '/api/v1/time'
  */
 describe(serviceUrl, function () {
 
+  // Test adresi tam yolu
+  var testUrl = `${arc.link}${serviceUrl}`
+
   // Önce api sayfasına bağlan
-  before(browser => browser.url(`${arc.link}${serviceUrl}`))
+  before(browser => browser.url(testUrl))
 
   // Hizmet adımları
-  test('Tarayıcı üzerinde görüntüle', function (browser) {
+  test(`${testUrl} Tarayıcı üzerinde görüntüleniyor.`, function (browser) {
     browser
       // içerik uyuşuyor mu?
       .assert.containsText('body', 'dateTime', `${serviceUrl} içeriğine erişildi.`)
