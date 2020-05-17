@@ -1,5 +1,5 @@
 // Gerekli kütüphaneler.
-var Architecture = require('../../src/architecture')
+var Architecture = require('@arc/core/architecture')
 
 /**
  * Uygulama örneği başarılı bir şekilde yüklenmesi.

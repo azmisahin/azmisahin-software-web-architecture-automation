@@ -16,7 +16,7 @@ describe('Başlıyor', function () {
    * 
    */
   beforeEach(function () {
-    app = require('../../src')
+    app = require('@arc/core').app
   })
 
   /**
