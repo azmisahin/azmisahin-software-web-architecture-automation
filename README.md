@@ -4,6 +4,7 @@
 <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield"/></a>
   <a title="Azure Pipeline" href="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_build"><img src="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_apis/build/status/azmisahin.azmisahin-software-web-architecture-automation" alt="Azure Pipeline"></a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield"/></a>
+  <a title="Azure Web App" href="http://azmisahin-software-web-architecture-automation.azurewebsites.net/"><img src="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/workflows/Build%20and%20deploy%20Node.js%20app%20to%20Azure%20Web%20App%20-%20azmisahin-software-web-architecture-automation/badge.svg" alt="Azure Web App"></a>
 </p>
 
 # Mimari Otomasyon

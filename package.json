@@ -46,11 +46,27 @@
     "coverage": "jest --collectCoverage",
     "start": "cross-env NODE_ENV=production npm run serve"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commitmsg": "commit stage",
+      "pre-push": "npm run test && npm version patch"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "npm run test",
+      "git add"
+    ]
+  },
   "dependencies": {
     "config": "^3.3.1",
     "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
     "express": "^4.17.1",
-    "cross-env": "^7.0.2"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.4"
   },
   "devDependencies": {
     "chromedriver": "^81.0.0",
