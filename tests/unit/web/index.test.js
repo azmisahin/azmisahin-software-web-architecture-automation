@@ -9,7 +9,7 @@ describe('Web uygualama sunucusu', function () {
   var app
 
   beforeEach(function () {
-    app = require('@arc/web')
+    app = require(process.cwd() + '/src/web')
   })
 
   /**

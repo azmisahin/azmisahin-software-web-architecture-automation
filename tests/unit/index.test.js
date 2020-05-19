@@ -16,7 +16,8 @@ describe('Başlıyor', function () {
    * 
    */
   beforeEach(function () {
-    app = require('@arc/core').app
+
+    app = require(process.cwd() + '/src/core').app
   })
 
   /**

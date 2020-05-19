@@ -20,4 +20,3 @@ if (arc.configuration.name != 'test') {
     console.log(arc.message)
   })
 }
-

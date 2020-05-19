@@ -1,5 +1,5 @@
 /// Gerekli kütüphaneler
-var { arc } = require('@arc/core')
+var { arc } = require(process.cwd() + '/src/core')
 
 var serviceUrl = '/api/v2'
 
