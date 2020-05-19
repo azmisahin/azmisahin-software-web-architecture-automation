@@ -28,12 +28,12 @@ module.exports = class Architecture {
     /**
 		 * Uygulama adı.
 		 */
-    this.name = require('./package.json').name
+    this.name = require(process.cwd() + '/package.json').name
 
     /**
 		 * Uygulama versiyon numarası.
 		 */
-    this.version = require('./package.json').version
+    this.version = require(process.cwd() + '/package.json').version
 
     /**
 		 * Uygulama konfigurasyon bilgisi.
