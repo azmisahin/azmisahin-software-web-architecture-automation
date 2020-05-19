@@ -1,10 +1,96 @@
 <p align="center">
-  <a title="CircleCI Status" href="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation"><img src="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation.svg" alt="CircleCI Status"></a>
-  <a title="Travis CI  Status" href="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation"><img src="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation.svg" alt="Travis CI Status"></a>
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield"/></a>
-  <a title="Azure Pipeline" href="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_build"><img src="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_apis/build/status/azmisahin.azmisahin-software-web-architecture-automation" alt="Azure Pipeline"></a>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield"/></a>
-  <a title="Azure Web App" href="http://azmisahin-software-web-architecture-automation.azurewebsites.net/"><img src="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/workflows/Build%20and%20deploy%20Node.js%20app%20to%20Azure%20Web%20App%20-%20azmisahin-software-web-architecture-automation/badge.svg" alt="Azure Web App"></a>
+  <a
+    title="CircleCI"
+    href="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation">
+    <img
+      alt="CircleCI Status"
+      src="https://circleci.com/gh/azmisahin/azmisahin-software-web-architecture-automation.svg">
+  </a>
+  <a
+    title="Travis CI"
+    href="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation">
+    <img
+      alt="Travis CI"
+      src="https://travis-ci.com/azmisahin/azmisahin-software-web-architecture-automation.svg">
+  </a>
+  <a
+    title="Azure Pipeline"
+    href="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_build">
+    <img
+      alt="Azure Pipeline"
+      src="https://dev.azure.com/azmisahin-github/azmisahin-software-web-architecture-automation/_apis/build/status/azmisahin.azmisahin-software-web-architecture-automation">
+  </a>
+</p>
+
+<p align="center">
+  <a
+    title="Bağımlık Lisanları"
+    href="https://app.fossa.com/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_shield">
+    <img
+      alt="Bağımlılık Lisansları"
+      src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=shield">
+  </a>
+  <a
+    title="Güvenlik Analizi"
+    href="https://lgtm.com/projects/g/azmisahin/azmisahin-software-web-architecture-automation/alerts/">
+    <img
+      alt="Güvenlik Uyarısı"
+      src="https://img.shields.io/lgtm/alerts/g/azmisahin/azmisahin-software-web-architecture-automation.svg?logo=lgtm&logoWidth=18">
+  </a>
+</p>
+
+<p align="center">
+  <a
+    title="Azure Web App"
+    href="http://azmisahin-software-web-architecture-automation.azurewebsites.net/">
+    <img
+      alt="Azure Web App"
+      src="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/workflows/Build%20and%20deploy%20Node.js%20app%20to%20Azure%20Web%20App%20-%20azmisahin-software-web-architecture-automation/badge.svg">
+  </a>
+</p>
+
+<p align="center">
+  <a
+    title="Katkılar"
+      href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/graphs/contributors">
+      <img
+        alt="Katkılar"
+        src="https://img.shields.io/github/contributors/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
+  <a
+    title="Sorunlar"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/issues">
+    <img
+      alt="Sorunlar"
+      src="https://img.shields.io/github/issues/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
+  <a
+    title="Ağ"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/network">
+    <img
+      alt="Ağ" src="https://img.shields.io/github/forks/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
+  <a
+    title="Beğeni"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/stargazers">
+    <img
+      alt="Beğeni"
+      src="https://img.shields.io/github/stars/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
+  <a
+    title="Lisans"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/blob/master/LICENSE">
+    <img
+      alt="Lisans"
+      src="https://img.shields.io/github/license/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
+  <a
+    title="Gönderim"
+    href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/commits/master">
+    <img
+      alt="Gönderim"
+      src="https://img.shields.io/github/commit-activity/m/azmisahin/azmisahin-software-web-architecture-automation">
+  </a>
 </p>
 
 # Mimari Otomasyon
