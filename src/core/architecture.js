@@ -54,7 +54,7 @@ module.exports = class Architecture {
     /**
 		 * Uygulama adresi 
 		 */
-    this.link = `http://${this.host}:${this.configuration.web.port}`
+    this.link = `http://${this.host}:${this.port}`
 
     /**
 		 * Karşılama mesajı.

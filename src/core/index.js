@@ -15,7 +15,7 @@ app.use(require('../controllers'))
 // Test modunda dinleme gerçekleşmeyecektir.
 if (arc.configuration.name != 'test') {
   // Sunucu port üzerinden dinlemeye başladı.
-  app.listen(arc.configuration.web.port, () => {
+  app.listen(arc.port, () => {
     // eslint-disable-next-line no-console
     console.log(arc.message)
   })
