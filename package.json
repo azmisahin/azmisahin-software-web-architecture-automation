@@ -1,5 +1,5 @@
 {
-  "name": "architecture",
+  "name": "architecturejs",
   "version": "1.0.0",
   "description": "Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerini kullanma ve geliştirme prensiplerin, mimari örneğini örneklemektedir.",
   "author": "azmisahin@outlook.com",
@@ -47,9 +47,6 @@
     "start": "cross-env NODE_ENV=production npm run serve"
   },
   "dependencies": {
-    "@arc/core": "file:src/core",
-    "@arc/controllers": "file:src/controllers",
-    "@arc/web": "file:src/web",
     "config": "^3.3.1",
     "cors": "^2.8.5",
     "express": "^4.17.1"

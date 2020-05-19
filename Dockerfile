@@ -13,7 +13,7 @@ RUN npm install
 COPY . .
 
 # Build the app
-RUN npm run prod
+RUN npm run test
 
 # Specify port app runs on
 EXPOSE 5000
