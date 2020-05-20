@@ -1,10 +1,9 @@
 ---
 adı: Özellik isteği
 hakkında: Bu proje için bir fikir önerin
-Başlık: ''
-etiketler: ''
-vekiller: ''
-
+Başlık: ""
+etiketler: ""
+vekiller: ""
 ---
 
 ** Özellik isteğiniz bir sorunla ilgili mi? Lütfen tanımla.**

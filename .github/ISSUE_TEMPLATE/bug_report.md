@@ -1,10 +1,9 @@
 ---
 isim: Hata raporu
 hakkında: Geliştirmemize yardımcı olacak bir rapor oluşturun
-Başlık: ''
-etiketler: ''
-vekiller: ''
-
+Başlık: ""
+etiketler: ""
+vekiller: ""
 ---
 
 ** Hatayı açıklayın **
@@ -12,6 +11,7 @@ Hatanın ne olduğuna dair net ve özlü bir açıklama.
 
 **Yeniden üretmek**
 Davranışı yeniden oluşturma adımları:
+
 1. "..." e gidin
 2. '....' düğmesini tıklayın.
 3. '....' seçeneğine gidin.

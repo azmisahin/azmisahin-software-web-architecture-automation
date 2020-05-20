@@ -1,7 +1,7 @@
 /**
  * Tüm servisleri hazırlar.
  */
-const Services = {} 
+const Services = {}
 
 loadServices()
 
@@ -9,7 +9,6 @@ loadServices()
  * Uçtan uca test tanımları.
  */
 module.exports = {
-
   /**
    * Testlerinizin bulunduğu bir dizi klasör (alt klasörler hariç);
    * Bu belirtilmezse, test kaynağının test çalıştırıcısına ikinci argüman olarak iletilmesi gerekir.
@@ -25,20 +24,18 @@ module.exports = {
    * Test Ayarları
    */
   test_settings: {
-
     /**
      * Varsayılan test ayarları
      */
     default: {
-
       /**
        * Testin yürütülmesi sırasında hataları görüntülemek istemiyorsanız bunu true olarak ayarlayın
        * */
       disable_error_log: false,
 
       /**
-      * Bu özellik, testlerde kullanılan ana Nightwatch API'sine sunulacaktır.
-      * Değeri, hangi ortamın kullanıldığına bağlıdır.
+       * Bu özellik, testlerde kullanılan ana Nightwatch API'sine sunulacaktır.
+       * Değeri, hangi ortamın kullanıldığına bağlıdır.
        */
       launch_url: 'https://nightwatchjs.org',
 
@@ -48,17 +45,17 @@ module.exports = {
       screenshots: {
         enabled: true,
         path: 'screens',
-        on_failure: true
+        on_failure: true,
       },
 
       desiredCapabilities: {
-        browserName: 'firefox'
+        browserName: 'firefox',
       },
 
       webdriver: {
         start_process: true,
-        server_path: (Services.geckodriver ? Services.geckodriver.path : '')
-      }
+        server_path: Services.geckodriver ? Services.geckodriver.path : '',
+      },
     },
 
     /**
@@ -70,15 +67,15 @@ module.exports = {
         alwaysMatch: {
           'moz:firefoxOptions': {
             args: [],
-          }
-        }
+          },
+        },
       },
       webdriver: {
         start_process: true,
         port: 4444,
-        server_path: (Services.geckodriver ? Services.geckodriver.path : ''),
-        cli_args: []
-      }
+        server_path: Services.geckodriver ? Services.geckodriver.path : '',
+        cli_args: [],
+      },
     },
 
     /**
@@ -88,15 +85,15 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'chrome',
         chromeOptions: {
-          args: []
-        }
+          args: [],
+        },
       },
       webdriver: {
         start_process: true,
         port: 9515,
-        server_path: (Services.chromedriver ? Services.chromedriver.path : ''),
-        cli_args: []
-      }
+        server_path: Services.chromedriver ? Services.chromedriver.path : '',
+        cli_args: [],
+      },
     },
 
     /**
@@ -105,20 +102,20 @@ module.exports = {
     browserstack: {
       selenium: {
         host: 'hub-cloud.browserstack.com',
-        port: 443
+        port: 443,
       },
       desiredCapabilities: {
         'bstack:options': {
           local: 'false',
           userName: '${BROWSERSTACK_USER}',
           accessKey: '${BROWSERSTACK_KEY}',
-        }
+        },
       },
       disable_error_log: true,
       webdriver: {
         keep_alive: true,
-        start_process: false
-      }
+        start_process: false,
+      },
     },
 
     /**
@@ -129,9 +126,9 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'chrome',
         chromeOptions: {
-          w3c: false
-        }
-      }
+          w3c: false,
+        },
+      },
     },
 
     /**
@@ -140,8 +137,8 @@ module.exports = {
     'browserstack.firefox': {
       extends: 'browserstack',
       desiredCapabilities: {
-        browserName: 'firefox'
-      }
+        browserName: 'firefox',
+      },
     },
 
     /**
@@ -157,9 +154,9 @@ module.exports = {
           osVersion: '10',
           local: 'false',
           seleniumVersion: '3.5.2',
-          resolution: '1366x768'
-        }
-      }
+          resolution: '1366x768',
+        },
+      },
     },
 
     /**
@@ -172,12 +169,18 @@ module.exports = {
       selenium: {
         start_process: true,
         port: 4444,
-        server_path: (Services.seleniumServer ? Services.seleniumServer.path : ''),
+        server_path: Services.seleniumServer
+          ? Services.seleniumServer.path
+          : '',
         cli_args: {
-          'webdriver.gecko.driver': (Services.geckodriver ? Services.geckodriver.path : ''),
-          'webdriver.chrome.driver': (Services.chromedriver ? Services.chromedriver.path : '')
-        }
-      }
+          'webdriver.gecko.driver': Services.geckodriver
+            ? Services.geckodriver.path
+            : '',
+          'webdriver.chrome.driver': Services.chromedriver
+            ? Services.chromedriver.path
+            : '',
+        },
+      },
     },
 
     /**
@@ -188,9 +191,9 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'chrome',
         chromeOptions: {
-          w3c: false
-        }
-      }
+          w3c: false,
+        },
+      },
     },
 
     /**
@@ -201,20 +204,17 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'firefox',
         'moz:firefoxOptions': {
-          args: []
-        }
-      }
-    }
-
-  }
-
+          args: [],
+        },
+      },
+    },
+  },
 }
 
 /**
  * Tarayıcı servislerini hazırlar.
  */
 function loadServices() {
-
   /**
    * Selenium Sunucususu talep ediliyor.
    */
@@ -244,5 +244,4 @@ function loadServices() {
     // eslint-disable-next-line no-console
     console.log('Gecko Servisi Yüklenemedi.\n' + err)
   }
-
 }

@@ -3,27 +3,25 @@
  * tanımlamak için statik kod analiz tanımları.
  */
 module.exports = {
-
   /**
    * Önceden tanımlanmış global değişkenleri tanımlar
    * @see https://eslint.org/docs/user-guide/configuring#specifying-environments
    */
-  "env": {
-
+  env: {
     /// Tarayıcı genel değişkenleri.
-    "browser": true,
+    browser: true,
 
     /// Modüller hariç tüm ECMAScript 6 özelliklerini etkinleştirir.
-    "es6": true,
+    es6: true,
 
     /// Node.js genel değişkenleri ve Node.js kapsamı.
-    "node": true,
+    node: true,
 
     /// Test ve cover
-    "jest": true,
+    jest: true,
 
     // Mocha test framework tüm değişkenlerini yükler.
-    "mocha": true
+    mocha: true,
   },
 
   /**
@@ -31,18 +29,18 @@ module.exports = {
    *
    * @see https://eslint.org/docs/user-guide/configuring#using-eslintrecommended
    */
-  "extends": "eslint:recommended",
+  extends: "eslint:recommended",
 
   /**
    * Ayrıştırıcı Seçeneklerini Belirleme.
    *
    * @see https://eslint.org/docs/user-guide/configuring#specifying-parser-options
    */
-  "parserOptions": {
+  parserOptions: {
     /**
      * Ecma Script versiyon
      */
-    "ecmaVersion": 6
+    ecmaVersion: 6,
   },
 
   /**
@@ -50,17 +48,13 @@ module.exports = {
    *
    * @see https://eslint.org/docs/rules
    */
-  "rules": {
-
+  rules: {
     /**
      * Tutarlı girinti uygula (girinti).
      *
      * @see https://eslint.org/docs/rules/indent
      */
-    "indent": [
-      "error",
-      2
-    ],
+    indent: ["error", 2],
 
     /**
      * Tutarlı linebreak stilini uygula (linebreak stili).
@@ -68,27 +62,24 @@ module.exports = {
      * Çapraz platform rolü
      * @see https://eslint.org/docs/rules/linebreak-style
      */
-    "linebreak-style": ["error", (process.platform === "win32" ? "windows" : "unix")],
+    "linebreak-style": [
+      "error",
+      process.platform === "win32" ? "windows" : "unix",
+    ],
 
     /**
      * Ters tırnak, çift veya tek tırnak (tırnak) tutarlı kullanımını zorunlu kılmak.
      *
      * @see https://eslint.org/docs/rules/quotes
      */
-    "quotes": [
-      "error",
-      "single"
-    ],
+    quotes: ["error", "single"],
 
     /**
      * Noktalı virgül gerektirir veya izin vermez.
      *
      * @see https://eslint.org/docs/rules/semi
      */
-    "semi": [
-      "error",
-      "never"
-    ],
+    semi: ["error", "never"],
 
     /**
      * Kullanımına izin verme console(konsol yok).
@@ -102,13 +93,5 @@ module.exports = {
      * @see https://eslint.org/docs/rules/newline-after-var
      */
     "newline-after-var": ["error", "always"],
-
-    /**
-     * Tutarlı linebreak stilini uygula.
-     * @see https://eslint.org/docs/rules/linebreak-style
-     */
-    'linebreak-style': ["error", "unix"]
-
-  }
-
-}
+  },
+};

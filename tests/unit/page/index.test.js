@@ -12,7 +12,6 @@ app.use(page)
  * Sayfa testleri
  */
 describe('Sayfalar', function () {
-
   // Hedeflenen sürüm.
   var url = '/'
 
@@ -20,10 +19,8 @@ describe('Sayfalar', function () {
    * Hedeflenen sürüm için, global test.
    */
   it(url, function (done) {
-
     // SuperTest talep ediliyor.
     request(app)
-
       // YÖnlendiricilerin testi
       .get(url)
 

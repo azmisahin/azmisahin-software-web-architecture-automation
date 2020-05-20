@@ -1,3 +1,7 @@
+/**
+ * Test kodlarında kullanılacak ifadeler.
+ */
+
 /// Beklenen
 var expected = ''
 

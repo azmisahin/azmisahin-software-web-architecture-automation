@@ -5,7 +5,6 @@ var request = require('supertest')
  * Uygulama başlatme testleri.
  */
 describe('Başlıyor', function () {
-
   // Hedeflenen sürüm.
   var url = '/'
 
@@ -13,10 +12,9 @@ describe('Başlıyor', function () {
   var app
 
   /**
-   * 
+   *
    */
   beforeEach(function () {
-
     app = require(process.cwd() + '/src/core').app
   })
 
@@ -24,10 +22,8 @@ describe('Başlıyor', function () {
    * Hedeflenen sürüm için, global test.
    */
   it(url, function (done) {
-
     // SuperTest talep ediliyor.
     request(app)
-
       // YÖnlendiricilerin testi
       .get(url)
 

@@ -12,22 +12,19 @@ app.use(api)
  * Time api testleri
  */
 describe('v1 api tests', function () {
-
   // Hedeflenen sürüm.
   var url = '/api/v1'
 
   /**
-     * Hedeflenen sürüm için, global test.
-     */
+   * Hedeflenen sürüm için, global test.
+   */
   it(url, function (done) {
-
     // SuperTest talep ediliyor.
     request(app)
-
-    // Global sürüm testi.
+      // Global sürüm testi.
       .get('/')
 
-    // Başarılı cevabı alınması gerekli.
+      // Başarılı cevabı alınması gerekli.
       .expect(200, 'v1')
       .end(done)
   })

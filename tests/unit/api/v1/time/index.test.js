@@ -12,7 +12,6 @@ app.use(api)
  * Time api testleri
  */
 describe('Time api tests', function () {
-
   // Hedeflenen sürüm.
   var url = '/api/v1/time'
 
@@ -20,10 +19,8 @@ describe('Time api tests', function () {
    * Hedeflenen sürüm için, global test.
    */
   it(url, function (done) {
-
     // SuperTest talep ediliyor.
     request(app)
-
       // Global sürüm testi.
       .get('/')
 

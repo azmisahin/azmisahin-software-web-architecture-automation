@@ -1,6 +1,6 @@
 {
   "configuration": {
-    "name":"production",
+    "name": "production",
     "web": {
       "port": 5000
     },

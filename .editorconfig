@@ -2,7 +2,7 @@
 #	--------------------------------------------------
 #	Tutarlı kodlama stillerine başlarken.
 #	Geliştiriciler, kendi IDE'lerinde bu kod girinti ve stillerini kullanacaktır.
-#	Kaynak									:	https://editorconfig.org/
+#	Kaynak                          :   https://editorconfig.org/
 
 #	IDE EKLENTILERI
 #	--------------------------------------------------
@@ -10,20 +10,26 @@
 #	Editor Config Kaynak			:	https://github.com/editorconfig/editorconfig-vscode
 
 # Üst düzey ayarları uygulamaz.
-root												=	true
+root								=	true
 
 # Tüm Dosya Tiplerinde Kullanılmak üzere planlandı.
 [*]
-indent_style								=	space
+indent_style                        =	space
+
 # Girintilerde 2 boşluk kullanınız.
-indent_size									=	2
+indent_size                         =	2
+
 # Tab genişlikleri 3 boşluk kullanınız.
-tab_width										=	2
+tab_width                           =	2
+
 # Bir sonraki satıra geçmek için ASC 10 "\" kullanılmalıdır.
-end_of_line									= lf
+end_of_line                         =   lf
+
 # Dosya ve içerikleri utf-8 formatına uygun kaydedilmelidir.
-charset											=	utf-8
+charset                             =   utf-8
+
 # Satır sonlarında boşluk bulunmamalıdır.
-trim_trailing_whitespace		=	true
+trim_trailing_whitespace            =   true
+
 # Dosyalar kayıt sırasında yeni bir satır ile bitmelidir.
-insert_final_newline				=	true
+insert_final_newline                =   true

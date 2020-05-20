@@ -6,16 +6,17 @@ azmisahin@outlook.com
 
 # Nasıl Katlı Sağlarım?
 
-*Lütfen katkıda bulunmadan önce bu yönergeleri okuyun.*
+_Lütfen katkıda bulunmadan önce bu yönergeleri okuyun._
 
 - Başlamadan önce, [Davranış Kuralları](CODE_OF_CONDUCT.md)na bakın.
 
 - Başlamadan önce [Çekme istekleri](../../pulls)ne bakın.
 
 # Aramıza hoş geldiniz.
+
 Kodunuzu göndermeden önce, bir kontrol listelemiz mevcuttur. Bu kontrol listenizi her gönderimizde uygulayınız.
 
-*Kontrol Listesi*
+_Kontrol Listesi_
 
 ✅ Kodum bu projenin kod stilini takip ediyor.
 
@@ -28,6 +29,7 @@ Kodunuzu göndermeden önce, bir kontrol listelemiz mevcuttur. Bu kontrol listen
 ✅ Tüm yeni ve mevcut testler geçti.
 
 # Tutarlı kodlama stillerine başlarken
+
 Geliştiriciler, kendi IDE'lerinde bu kod girinti ve stillerini kullanacaktır.
 
 ✅ Girintilerde 2 boşluk kullanınız.

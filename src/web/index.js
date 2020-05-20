@@ -5,7 +5,7 @@ var cors = require('cors')
 /**
  * Express sunucu
  */
-var app = module.exports = express()
+var app = (module.exports = express())
 
 // Static Dosyalar
 app.use(express.static('./public'))

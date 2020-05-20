@@ -9,20 +9,20 @@ katkıda bulunanlar ve koruyucular projemize katılmayı taahhüt ederler.
 
 Olumlu bir ortam yaratmaya katkıda bulunan davranışlar
 
-* Hoş ve kapsayıcı bir dil kullanma
-* Farklı bakış açılarına ve deneyimlere saygılı olmak
-* Yapıcı eleştiriyi nazikçe kabul etmek
-* Topluluk için en iyi olana odaklanmak
-* Diğer topluluk üyelerine empati göstermek
+- Hoş ve kapsayıcı bir dil kullanma
+- Farklı bakış açılarına ve deneyimlere saygılı olmak
+- Yapıcı eleştiriyi nazikçe kabul etmek
+- Topluluk için en iyi olana odaklanmak
+- Diğer topluluk üyelerine empati göstermek
 
 Katılımcılar tarafından kabul edilemez davranışlar
 
-* Cinselleştirilmiş dil veya imgelerin kullanımı ve istenmeyen cinsel ilgi veya
- gelişmeler
-* Trolling, hakaret / aşağılayıcı yorumlar ve kişisel veya politik saldırılar
-* Kamu veya özel taciz
-* Fiziksel veya elektronik gibi başkalarının özel bilgilerini açık izin olmadan yayınlamak
-* Profesyonel ortamda makul olmayan sayılabilecek diğer davranışlar
+- Cinselleştirilmiş dil veya imgelerin kullanımı ve istenmeyen cinsel ilgi veya
+  gelişmeler
+- Trolling, hakaret / aşağılayıcı yorumlar ve kişisel veya politik saldırılar
+- Kamu veya özel taciz
+- Fiziksel veya elektronik gibi başkalarının özel bilgilerini açık izin olmadan yayınlamak
+- Profesyonel ortamda makul olmayan sayılabilecek diğer davranışlar
 
 ## Sorumluluklarımız
 

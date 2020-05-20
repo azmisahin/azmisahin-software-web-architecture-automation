@@ -1,8 +1,8 @@
 {
   "configuration": {
-    "name":"development",
+    "name": "development",
     "web": {
-      "port":3001
+      "port": 3001
     },
     "database": {}
   }

@@ -94,10 +94,11 @@
 </p>
 
 # Mimari Otomasyon
+
 Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerini kullanma ve geliştirme prensiplerin, mimari örneğini örneklemektedir.
 
 - Aramıza hoşgeldin, Katkı sağlamak için [Nasıl Katlı Sağlarım](CONTRIBUTING.md)a bakın.
-- Katılımcı Sözleşmesi  [Davranış Kuralları](CODE_OF_CONDUCT.md)nı gözden geçirin.
+- Katılımcı Sözleşmesi [Davranış Kuralları](CODE_OF_CONDUCT.md)nı gözden geçirin.
 - Proje [döküman](https://azmisahin.github.io/azmisahin-software-web-architecture-automation/) sayfasına erişmek için
 
 ## License
@@ -112,6 +113,5 @@ Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerin
     href="https://github.com/azmisahin/azmisahin-software-web-architecture-automation/" property="cc:attributionName" rel="cc:attributionURL">Azmi SAHIN</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
 Based on a work at <a xmlns:dct="https://purl.org/dc/terms/" href="https://cybotranik-site-template.gitlab.io" rel="dct:source">https://github.com/azmisahin/azmisahin-software-web-architecture-automation</a>
-
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fazmisahin%2Fazmisahin-software-web-architecture-automation?ref=badge_large)

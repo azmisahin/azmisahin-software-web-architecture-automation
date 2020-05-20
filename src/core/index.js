@@ -3,10 +3,10 @@ var express = require('express')
 var Architecture = require('./architecture')
 
 /// Uygulama örneği oluşturuldu.
-var arc = module.exports.arc = new Architecture
+var arc = (module.exports.arc = new Architecture())
 
 /// Express
-var app = module.exports.app = express()
+var app = (module.exports.app = express())
 
 // Sunucu başlangıç yapılandırmaları
 app.use(require('../web'))
