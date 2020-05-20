@@ -4,15 +4,15 @@
 
 azmisahin@outlook.com
 
-# Nasıl Katlı Sağlarım?
+## Nasıl Katlı Sağlarım?
 
 _Lütfen katkıda bulunmadan önce bu yönergeleri okuyun._
 
-- Başlamadan önce, [Davranış Kuralları](CODE_OF_CONDUCT.md)na bakın.
+  - Başlamadan önce, [Davranış Kuralları](CODE_OF_CONDUCT.md)na bakın.
 
-- Başlamadan önce [Çekme istekleri](../../pulls)ne bakın.
+  - Başlamadan önce [Çekme istekleri](../../pulls)ne bakın.
 
-# Aramıza hoş geldiniz.
+## Aramıza hoş geldiniz.
 
 Kodunuzu göndermeden önce, bir kontrol listelemiz mevcuttur. Bu kontrol listenizi her gönderimizde uygulayınız.
 
@@ -28,7 +28,7 @@ _Kontrol Listesi_
 
 ✅ Tüm yeni ve mevcut testler geçti.
 
-# Tutarlı kodlama stillerine başlarken
+## Tutarlı kodlama stillerine başlarken
 
 Geliştiriciler, kendi IDE'lerinde bu kod girinti ve stillerini kullanacaktır.
 

@@ -37,6 +37,20 @@
       alt="Güvenlik Uyarısı"
       src="https://img.shields.io/lgtm/alerts/g/azmisahin/azmisahin-software-web-architecture-automation.svg?logo=lgtm&logoWidth=18">
   </a>
+  <a
+    title="DeepScan Analizi"
+    href="https://deepscan.io/dashboard#view=project&tid=9320&pid=11619&bid=174939">
+    <img
+      alt="DeepScan Analizi"
+      src="https://deepscan.io/api/teams/9320/projects/11619/branches/174939/badge/grade.svg">
+  </a>
+  <a
+    title="Kod İncelemesi"
+    href="https://app.codacy.com/manual/azmisahin/azmisahin-software-web-architecture-automation?utm_source=github.com&utm_medium=referral&utm_content=azmisahin/azmisahin-software-web-architecture-automation&utm_campaign=Badge_Grade_Dashboard">
+    <img
+      alt="Kod İncelemesi"
+      src="https://api.codacy.com/project/badge/Grade/0119dbb1137c4b6ca1f383543f3b98cf">
+  </a>
 </p>
 
 <p align="center">
@@ -97,9 +111,9 @@
 
 Proje; takım ortamında geliştirme, kod gönderimi, tutarlı kodlama stillerini kullanma ve geliştirme prensiplerin, mimari örneğini örneklemektedir.
 
-- Aramıza hoşgeldin, Katkı sağlamak için [Nasıl Katlı Sağlarım](CONTRIBUTING.md)a bakın.
-- Katılımcı Sözleşmesi [Davranış Kuralları](CODE_OF_CONDUCT.md)nı gözden geçirin.
-- Proje [döküman](https://azmisahin.github.io/azmisahin-software-web-architecture-automation/) sayfasına erişmek için
+  - Aramıza hoşgeldin, Katkı sağlamak için [Nasıl Katlı Sağlarım](CONTRIBUTING.md)a bakın.
+  - Katılımcı Sözleşmesi [Davranış Kuralları](CODE_OF_CONDUCT.md)nı gözden geçirin.
+  - Proje [döküman](https://azmisahin.github.io/azmisahin-software-web-architecture-automation/) sayfasına erişmek için
 
 ## License
 
