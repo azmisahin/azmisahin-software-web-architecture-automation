@@ -55,13 +55,19 @@ module.exports = class Architecture {
     this.link = `http://${this.host}:${this.port}`
 
     /**
+     * Çoklu Dil Desteği
+     */
+    this.lang = require('./lang')
+
+    /**
      * Karşılama mesajı.
      */
     this.message = `
-		Application : ${this.name}
-		Version     : ${this.version}
-		Port        : ${this.port}
-		Mode        : ${this.configuration.name}
-		Link        : ${this.link}`
+    ${this.lang.Val('app.name.label')}\t\t: ${this.name}
+    ${this.lang.Val('app.version.label')}\t\t: ${this.version}
+    ${this.lang.Val('app.port.label')}\t\t: ${this.port}
+    ${this.lang.Val('app.mode.label')}\t\t: ${this.configuration.name}
+    ${this.lang.Val('app.link.label')}\t\t: ${this.link}
+    `
   }
 }

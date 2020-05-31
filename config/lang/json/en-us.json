@@ -1,0 +1,31 @@
+{
+  "root": {
+    "data": [
+      {
+        "type": "string",
+        "name": "app.name.label",
+        "value": "Application"
+      },
+      {
+        "type": "string",
+        "name": "app.version.label",
+        "value": "Version"
+      },
+      {
+        "type": "string",
+        "name": "app.port.label",
+        "value": "Port"
+      },
+      {
+        "type": "string",
+        "name": "app.mode.label",
+        "value": "Mode"
+      },
+      {
+        "type": "string",
+        "name": "app.link.label",
+        "value": "Link"
+      }
+    ]
+  }
+}

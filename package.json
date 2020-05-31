@@ -68,6 +68,7 @@
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "husky": "^4.2.5",
+    "language-manager": "0.0.11",
     "lint-staged": "^10.2.4"
   },
   "devDependencies": {
